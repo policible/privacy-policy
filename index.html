@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Policible</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #0F1419;
+            background-color: #F7F9F9;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #0F1419;
+            margin-bottom: 12px;
+        }
+        
+        .last-updated {
+            font-size: 14px;
+            color: #536471;
+            margin-bottom: 32px;
+        }
+        
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #0F1419;
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #0F1419;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+        
+        p {
+            font-size: 15px;
+            color: #0F1419;
+            margin-bottom: 16px;
+        }
+        
+        ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+        
+        li {
+            font-size: 15px;
+            color: #0F1419;
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #E7F5FF;
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid #1D9BF0;
+            margin: 24px 0;
+        }
+        
+        .highlight p {
+            margin-bottom: 8px;
+        }
+        
+        .highlight p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .contact {
+            background-color: #F7F9F9;
+            padding: 24px;
+            border-radius: 8px;
+            margin-top: 32px;
+        }
+        
+        .contact h3 {
+            margin-top: 0;
+        }
+        
+        a {
+            color: #1D9BF0;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: January 5, 2026</p>
+        
+        <div class="highlight">
+            <p><strong>Your Privacy is Protected</strong></p>
+            <p>Policible is designed with your privacy as the top priority. All your insurance policy data is stored locally on your device. We do not collect, transmit, or have access to any of your personal information.</p>
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p>This Privacy Policy describes how Policible ("we", "our", or "the app") handles your information. Policible is an insurance policy management application that helps you organize and track your insurance policies, beneficiaries, and agents.</p>
+        <p>This app is completely free to use and is not affiliated with any insurance company or financial institution.</p>
+
+        <h2>2. Information We DO NOT Collect</h2>
+        <p>Policible does not collect, store on external servers, or transmit any of your personal information, including but not limited to:</p>
+        <ul>
+            <li>Insurance policy details, numbers, or coverage information</li>
+            <li>Personal information of beneficiaries (names, dates of birth, relationships)</li>
+            <li>Insurance agent contact information</li>
+            <li>Payment or premium information</li>
+            <li>Usage data or analytics</li>
+            <li>Device identifiers or location data</li>
+            <li>Any other personal or sensitive information</li>
+        </ul>
+
+        <h2>3. How Your Data is Stored</h2>
+        <p>All data you enter into Policible is stored exclusively on your device using secure local storage mechanisms:</p>
+        <ul>
+            <li><strong>Local Device Storage:</strong> Your insurance policy data, profiles, and agent information are saved locally on your device using AsyncStorage (React Native's persistent storage system)</li>
+            <li><strong>No Cloud Sync:</strong> We do not sync your data to any cloud service or external server</li>
+            <li><strong>No Account Required:</strong> The app does not require you to create an account or provide any personal information to use it</li>
+            <li><strong>Data Control:</strong> You have complete control over your data. You can export, share, or delete it at any time directly from the app</li>
+        </ul>
+
+        <h2>4. Optional Features That Access Your Data</h2>
+        
+        <h3>4.1 Biometric Authentication (Optional)</h3>
+        <p>If you choose to enable biometric authentication (Face ID, Touch ID, or fingerprint):</p>
+        <ul>
+            <li>This feature only unlocks the app using your device's built-in biometric system</li>
+            <li>We do not collect, store, or have access to your biometric data</li>
+            <li>All biometric processing is handled by your device's operating system</li>
+            <li>You can disable this feature at any time in Settings</li>
+        </ul>
+
+        <h3>4.2 Export and Share Features (User-Initiated)</h3>
+        <p>The app allows you to export and share your policy data:</p>
+        <ul>
+            <li><strong>Encrypted Export:</strong> When you choose to share a profile or create a backup, the data is encrypted with a passcode you create</li>
+            <li><strong>You Control Sharing:</strong> Files are only created and shared when you explicitly initiate the export process</li>
+            <li><strong>No Automatic Upload:</strong> Your data is never automatically uploaded or transmitted anywhere</li>
+            <li><strong>Recipient Privacy:</strong> When you share data with someone, they receive an encrypted file that can only be unlocked with the passcode you provide to them</li>
+        </ul>
+
+        <h3>4.3 Notification Reminders (Optional)</h3>
+        <p>If you choose to enable payment reminders:</p>
+        <ul>
+            <li>Notifications are scheduled locally on your device</li>
+            <li>No notification data is sent to external servers</li>
+            <li>You can cancel reminders at any time from the Notifications screen</li>
+        </ul>
+
+        <h2>5. Third-Party Services</h2>
+        <p>Policible does not integrate with any third-party analytics, advertising, or tracking services. The app functions entirely offline and does not communicate with external servers.</p>
+
+        <h2>6. Children's Privacy</h2>
+        <p>Policible does not knowingly collect personal information from anyone, including children under the age of 13. Since all data is stored locally on the device and not transmitted to us, we have no access to user information regardless of age.</p>
+
+        <h2>7. Data Security</h2>
+        <p>We take the security of your data seriously:</p>
+        <ul>
+            <li><strong>Local Encryption:</strong> When you create encrypted backups or share files, we use AES-256 encryption with password-based key derivation</li>
+            <li><strong>Optional Biometric Lock:</strong> You can enable biometric authentication to prevent unauthorized access to the app</li>
+            <li><strong>No Network Transmission:</strong> Since your data never leaves your device (except when you explicitly export it), it is not vulnerable to network-based attacks</li>
+            <li><strong>Device Security:</strong> Your data security depends on your device's security. We recommend using a device passcode and keeping your device updated</li>
+        </ul>
+
+        <h2>8. Your Data Rights</h2>
+        <p>Since all your data is stored locally on your device, you have complete control:</p>
+        <ul>
+            <li><strong>Access:</strong> You can view all your data within the app at any time</li>
+            <li><strong>Export:</strong> You can export your data as an encrypted backup file</li>
+            <li><strong>Delete:</strong> You can delete individual items or all data from Settings > Delete All Data</li>
+            <li><strong>Transfer:</strong> You can share profiles with other users through encrypted export files</li>
+        </ul>
+
+        <h2>9. Data Retention</h2>
+        <p>Your data is retained on your device until you:</p>
+        <ul>
+            <li>Manually delete it within the app</li>
+            <li>Uninstall the app (which removes all local data)</li>
+            <li>Use the "Delete All Data" feature in Settings</li>
+        </ul>
+        <p>We do not have access to or control over your data, so we cannot delete it on your behalf.</p>
+
+        <h2>10. International Data Transfers</h2>
+        <p>Since Policible does not collect or transmit your data to any servers, there are no international data transfers. Your data remains on your device in your physical location.</p>
+
+        <h2>11. Changes to Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be reflected in the app and on this page with an updated "Last Updated" date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>12. Singapore Personal Data Protection Act (PDPA) Compliance</h2>
+        <p>While Policible does not collect personal data as defined under the Personal Data Protection Act 2012 of Singapore, we are committed to protecting your privacy rights. Since all data is stored locally on your device:</p>
+        <ul>
+            <li>We do not collect, use, or disclose your personal data</li>
+            <li>We do not transfer your personal data to third parties</li>
+            <li>You maintain complete control and ownership of your data</li>
+        </ul>
+
+        <div class="contact">
+            <h3>13. Contact Us</h3>
+            <p>If you have any questions, concerns, or feedback about this Privacy Policy or the app, please contact us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:policible.dev@gmail.com">policible.dev@gmail.com</a></p>
+            <p>We welcome your feedback and are committed to addressing any privacy concerns you may have.</p>
+        </div>
+
+        <div class="highlight" style="margin-top: 32px;">
+            <p><strong>Remember:</strong> No one is going to call you. Your privacy is protected. All your data stays on your device, confirm plus chop.</p>
+        </div>
+    </div>
+</body>
+</html>
